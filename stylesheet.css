@@ -1,0 +1,186 @@
+body{
+	font-family:georgia;
+	background-color:#EDF7FA;
+}
+
+#content{
+	width:90%;
+	margin-left:5%;
+}
+
+#logo{
+	height:10em;
+}
+
+#missionStatment{
+	width:45%;
+	float:left;
+}
+
+#missionStatment p{
+	font-size:1em;
+}
+
+#happyLady{
+	width:45%;
+	float:right;
+	margin-bottom:1em;
+}
+
+#courses{
+	clear:both;
+}
+
+ul.nav a:hover{
+	color: #13690C !important;
+}
+
+#topPart{
+	padding-top:15em;
+	padding-bottom:5em;
+}
+
+.navbar-default {
+	background-color:#EDF7FA !important;
+	background-image:none !important;
+	background-repeat:no-repeat !important;
+	border-bottom: 1px solid #2EBF30 !important;
+	border:none;
+	height:14em !important;
+	width:90% !important;
+	margin:auto !important;
+}
+
+.navbar-buttons{
+	margin-top:8.2em !important;
+}
+
+.navbar-buttons:last-child{
+	margin-right:5em !important;
+}
+
+.navbar-icon{
+	margin-top:9em !important;
+	margin-right:5em !important;
+	background-color: #2EBF30 !important;
+}
+
+.collapsing, .in{
+	background-color: #EDF7FA;
+	border-top:none;
+}
+
+@media screen and (max-width:850px) {
+    #happyLady{
+		display:none;
+	}
+	#missionStatment{
+		width:70%;
+		text-align:center;
+		margin-left:15%;
+	}
+}
+
+#courses{
+	padding-top:10em !important;
+	margin-right:2em;
+	margin-left:2em;
+}
+
+.coursesThumbnail{
+	height:9em;
+}
+
+.courses{
+	float:left;
+	padding-left:1em;
+	text-align:center;
+	text-decoration:none;
+}
+
+#contactUs{
+	padding-top:10em !important;
+	clear:both;
+}
+
+.link{
+	text-align:center;
+}
+
+.link img{
+	margin:auto;
+}
+
+.link a{
+	text-decoration:none;
+	color:black;
+}
+
+.link:hover{
+	opacity:0.4;
+}
+
+#titleCourses{
+	padding-top:2em;
+	text-align:center;
+}
+
+#contactUs{
+	margin:auto;
+	text-align:center;
+}
+
+#contactUs form{
+	text-align:left;
+}
+
+#contactTitle{
+	padding-top:2em;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: #2EBF30;
+  box-shadow: #2EBF30 inset, #2EBF30;
+  outline: 0 none;
+}
+
+#submitButton{
+	width:8em;
+}
+
+#titleHelp{
+	padding-top:8em;
+	padding-bottom:2em;
+}
+
+#help{
+	margin-top:20em;
+	text-align:center;
+}
+
+#helpContent p{
+	font-size:1.5em;
+}
+
+#topOne{
+	padding-top:7em;
+}
+
+#videos{
+	text-align:center;
+}
