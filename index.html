@@ -5,9 +5,7 @@
 
 
 
-	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBik2mh1j-Vdd-C2NnNM3VZZTI8oLMGcgY	"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link href="http://www.youtube.com/v/VIDEO_ID?version=3&enablejsapi=1">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
@@ -59,35 +57,35 @@
 
 		<h2 id="titleCourses">Top Courses</h2>
 		<div class="col-md-4 col-xs-6 link">
-			<a href="#">
+			<a href="watch.html">
 				<h4>Life Purpose</h4>
 				<img class="coursesThumbnail img-responsive" src="pictures/lifePurpose.gif" />
 			</a>
 		</div>
 
 		<div class="col-md-4 col-xs-6 link">
-			<a href="#">
+			<a href="watch.html">
 				<h4>Financial Freedom</h4>
 				<img class="coursesThumbnail img-responsive" src="pictures/financialFreedom.jpg" />
 			</a>
 		</div>
 
 		<div class="col-md-4 col-xs-6 link">
-			<a href="#">
+			<a href="watch.html">
 				<h4>Dating & Relationships</h4>
 				<img class="coursesThumbnail img-responsive" src="pictures/datingRelationships.jpg" />
 			</a>
 		</div>
 
 		<div class="col-md-4 col-xs-6 link">
-			<a href="#">
+			<a href="watch.html">
 				<h4>Motivation</h4>
 				<img class="coursesThumbnail img-responsive" src="pictures/motivation.jpg" />
 			</a>
 		</div>
 
 		<div class="col-md-4 col-xs-6 link">
-			<a href="#">
+			<a href="watch.html">
 				<h4>Happiness & Fulfillment</h4>
 				<img class="coursesThumbnail img-responsive" src="pictures/happiness.jpg" />
 			</a>
@@ -98,18 +96,18 @@
 		<hr>
 		<h2 id="contactTitle">Contact us, we will be happy to talk to you</h2>
 		<div class="col-md-6">
-			<form>
+			<form action="https://formspree.io/tutoreach@outlook.com" method="POST">
 				<div class="form-group">
 					<label for="nameInput">Your Name</label>
-					<input type="text" class="form-control" id="nameInput" placeholder="Name" />
+					<input type="text" class="form-control" id="nameInput" placeholder="Name" name="_subject" required/>
 				</div>
 				<div class="form-group">
 					<label for="emailInput">Your Email</label>
-					<input type="email" class="form-control" id="emailInput" placeholder="Email" />
+					<input type="email" class="form-control" id="emailInput" placeholder="Email" name="_replyto" required />
 				</div>
 				<div class="form-group">
 					<label for="messageInput">Your Message</label>
-					<textarea placeholder="Your Message" class="form-control" id="messageInput" rows="2" ></textarea>
+					<textarea placeholder="Your Message" class="form-control" id="messageInput" rows="2" name="message" required  ></textarea>
 				</div>
 				<input id="submitButton"class="btn btn-default" type="submit" value="Submit">
 			</form>

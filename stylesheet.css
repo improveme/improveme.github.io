@@ -3,6 +3,10 @@ body{
 	background-color:#EDF7FA;
 }
 
+h2{
+	color:#2EBF30;
+}
+
 #content{
 	width:90%;
 	margin-left:5%;
@@ -65,6 +69,10 @@ ul.nav a:hover{
 	background-color: #2EBF30 !important;
 }
 
+.navbar-brand{
+	padding:none !important;
+}
+
 .collapsing, .in{
 	background-color: #EDF7FA;
 	border-top:none;
@@ -79,6 +87,14 @@ ul.nav a:hover{
 		text-align:center;
 		margin-left:15%;
 	}
+	#watchPagePic{
+		display:none;
+	}
+}
+
+#watchPagePic{
+	padding-top:15em;
+	margin-bottom:5em;
 }
 
 #courses{
@@ -181,6 +197,15 @@ input[type="color"]:focus,
 	padding-top:7em;
 }
 
+.topOne{
+	padding-top:7em;
+}
+
 #videos{
+	text-align:center;
+}
+
+#introduction{
+	float:left;
 	text-align:center;
 }
