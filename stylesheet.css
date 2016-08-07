@@ -81,7 +81,16 @@ ul.nav a:hover{
 @media screen and (max-width:850px) {
     #happyLady{
 		display:none;
-	}
+		}
+		#ladyTalking{
+			display:none;
+		}
+		#helpPic{
+			display:none;
+		}
+		#titleHelp{
+			padding-top:0.1em !important;
+		}
 	#missionStatment{
 		width:70%;
 		text-align:center;
@@ -154,22 +163,7 @@ ul.nav a:hover{
 	padding-top:2em;
 }
 
-textarea:focus,
-input[type="text"]:focus,
-input[type="password"]:focus,
-input[type="datetime"]:focus,
-input[type="datetime-local"]:focus,
-input[type="date"]:focus,
-input[type="month"]:focus,
-input[type="time"]:focus,
-input[type="week"]:focus,
-input[type="number"]:focus,
-input[type="email"]:focus,
-input[type="url"]:focus,
-input[type="search"]:focus,
-input[type="tel"]:focus,
-input[type="color"]:focus,
-.uneditable-input:focus {
+.contact-form-field:focus{
   border-color: #2EBF30;
   box-shadow: #2EBF30 inset, #2EBF30;
   outline: 0 none;
